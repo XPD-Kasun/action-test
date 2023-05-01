@@ -1,1 +1,17 @@
-
+name: some test
+on:
+  push:
+jobs:
+  fn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v2
+      - name: install npm
+        shell: |
+          npm install
+      - uses: phips28/gh-action-bump-version@v9
+        with:
+          version-type: patch
+      
+  
+    
