@@ -1,0 +1,7 @@
+{
+  "name": "testfnns",
+  "version": "1.0.0",
+  "dependancies": {
+    "react": "^19.0.0"
+  }
+}
