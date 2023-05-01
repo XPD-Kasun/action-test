@@ -9,7 +9,7 @@ jobs:
       - name: install npm
         run: |
           npm install
-      - uses: phips28/gh-action-bump-version@v9
+      - uses: phips28/gh-action-bump-version@v9.1.0
         with:
           version-type: patch
       
